@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    background-color: wheat;
+    color: #593916;
+}
+
+.pageHeader {
+    margin: 20px;
+    font: bold 25px sans-serif;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+}
+
+.shop {    
+    flex-basis: 30%; 
+    background-color: ivory;
+    border: 2px solid saddlebrown;
+    box-shadow: 4px 4px 4px 0px #593916;;
+    padding: 1em;
+    margin: .5em;
+    text-align: left;
+    font-family: sans-serif;
+}
+
+a:link {
+    color: dimgrey;
+  }
+
+a:hover {
+    color: black;
+    font-weight: 600;
+    text-decoration: underline;
+    }  
+
+a:visited {
+    color: #593916; 
+}
+
+
+
+.address, .phone, .website, .menu {
+    margin: 5px 0 5px 0;
+}
+
